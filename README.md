@@ -78,8 +78,8 @@ const [numberState, setNumberState] = useState(numbers);
 **STEP 4**
 
 - [x] Import the wrapper button components into `App.js`
-- [] Import the display components into `App.js` as well
-- [] Compose all the components inside the `App` component to get your calculator rendering on the DOM
+- [x] Import the display components into `App.js` as well
+- [x] Compose all the components inside the `App` component to get your calculator rendering on the DOM
 - [] In each component, start designing things to match the design file
 - [] Style your project using any of the techniques from the module
 - [] Don't forget about className vs class on your JSX elements!!
