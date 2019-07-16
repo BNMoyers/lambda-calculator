@@ -11,7 +11,9 @@ const Operators = () => {
   const [operatorState, setOperatorState] = useState(operators);
   return (
     <div>
-      
+       {operatorState.map((operators, index) =>(
+        <OperatorButton operator={operators.char} key={index} />
+      ) )}
     
     </div>
   );
