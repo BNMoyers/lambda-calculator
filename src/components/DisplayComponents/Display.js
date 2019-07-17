@@ -3,8 +3,8 @@ import React from "react";
 
 const Display = () => {
   return(
-  <div>
-    
+  <div className = 'displaySpace'>
+    {0}
   </div>)
 };
 

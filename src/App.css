@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    max-width: 475px;
+    height: 700px;
+    background-color: darkred;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo-container{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.displaySpace{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 5rem;
+    margin-top: 20px;
+    color: white;
+}
+
+button {
+    outline: none;
+    border: none;
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 2px darkgray;
+    
+}
+.stackedButtons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.stackedButtons button {
+    background-color: dodgerblue;
+    margin: 10px;
+
+}

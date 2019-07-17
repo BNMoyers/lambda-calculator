@@ -10,7 +10,7 @@ const Operators = () => {
   // STEP 2 - add the imported data to state
   const [operatorState, setOperatorState] = useState(operators);
   return (
-    <div>
+    <div className = 'operator'>
        {operatorState.map((operators, index) =>(
         <OperatorButton operator={operators.char} key={index} />
       ) )}
