@@ -27,14 +27,16 @@ function App() {
        
           <Display className = 'displaySpace'/>
         
-        <div className="stackedButtons">
-          <Specials className= 'specialsButtons'/>
-          <Numbers className='numbersButtons'/>
+        <div className = 'allButtons'>
+          <div className="stackedButtons">
+            <Specials className= 'specialsButtons'/>
+            <Numbers className='numbersButtons'/>
+          </div>
+          <Operators className = 'operators'/>
         </div>
-        
       </div>
       
-          <Operators className = 'operators'/>
+         
         
     </div>
   );
