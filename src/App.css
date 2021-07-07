@@ -1,0 +1,87 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    height: 700px;
+    background-color: darkred;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.logo-container{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.displaySpace{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80%;
+    border-radius: 50px;
+    font-size: 5rem;
+    padding: 10px;
+    background-color: #612a2c;
+    color: white;
+}
+.allButtons{
+    display: flex;
+    margin-top: 30px;
+}
+button {
+    outline: none;
+    border: none;
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 2px darkgray;
+    
+}
+.stackedButtons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    
+    
+
+}
+.numbersButton{
+    display: flex;
+    flex-direction: row;
+}
+.stackedButtons button {
+    background-color: dodgerblue;
+    margin: 8px;
+
+}
+.numbers button {
+    background-color: darkblue;
+}
+.numbers button:nth-child(10){
+    width: 180px;
+    border-radius: 40px;
+}
+.operator{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px;
+    
+    
+}
+
+.operator button{
+    background-color: darkcyan;
+}
